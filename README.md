@@ -1,6 +1,10 @@
 # Ecuador IR model (2025)
 
-Automated Income Tax (Impuesto a la Renta, IR) calculator for Ecuador, built in Python.
+## Overview
+
+This project automates the calculation of Ecuadorian Personal Income Tax (Impuesto a la Renta, IR) using the official progressive tax brackets and deductible expenses.
+
+The model supports both projected and actual expense scenarios, allowing users to estimate tax obligations throughout the year and compare projected results against final tax liabilities.
 
 This project provides a modular system to:
 
@@ -40,7 +44,7 @@ ecu_ir_model/  # Root folder project
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/ecu_ir_model.git
+git clone https://github.com/kevinplc191924/ecu_ir_model.git
 cd ecu_ir_model
 pip install -r requirements.txt
 ```
