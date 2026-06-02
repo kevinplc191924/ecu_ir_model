@@ -1,0 +1,18 @@
+# Standard Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.venv
+venv/
+ENV/
+.vscode/
+
+# Ignore specific files/folders
+ecu_ir_model.egg-info
+model_backup.py
+.pytest_cache/
+sample_result/
